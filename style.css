@@ -485,3 +485,109 @@ h2 {
   font-size: 16px;
   color: white;
 }
+
+@media (max-width: 1200px) {
+  .showcase {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content {
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .image img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .features-container {
+    gap: 20px;
+  }
+  .feature {
+    flex-direction: column;
+    text-align: center;
+  }
+  .feature.reverse {
+    flex-direction: column;
+  }
+  .feature-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 36px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .partners-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .partner {
+    width: 80%;
+  }
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  .test-button,
+  .test-button2,
+  .visa-btn {
+    width: 100%;
+    padding: 15px;
+  }
+  .faq-section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .faq-question {
+    width: 100%;
+  }
+  .visa-boxes {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .visa-box {
+    width: 100%;
+  }
+  .slider-container {
+    max-width: 100%;
+  }
+  .slide img {
+    width: 150px;
+    height: 150px;
+  }
+}
