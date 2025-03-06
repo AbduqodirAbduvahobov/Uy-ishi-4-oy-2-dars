@@ -64,3 +64,15 @@
 //     console.log(i);
 //   }
 // }
+
+// 
+// let n = 10; // Istalgan sonni shu yerda o'zgartiring
+// let sum = 0;
+
+// console.log("Toq sonlar:");
+// for (let i = 1; i <= n; i += 2) {
+//     console.log(i);
+//     sum += i;
+// }
+
+// console.log("Yig'indi:", sum);
